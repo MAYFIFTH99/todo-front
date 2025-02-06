@@ -6,7 +6,7 @@ if (hostname === "localhost") {
   backendHost = "http://localhost:8080";
 }
 else{
-  backendHost = "https://api.mayfifth99.store";
+  backendHost = "http://harvey-todo-front.ap-northeast-2.elasticbeanstalk.com";
 }
 
 export const API_BASE_URL = `${backendHost}`;
